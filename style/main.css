@@ -307,91 +307,170 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    /*background: #eee4da;*/
     text-align: center;
-    font-weight: bold;
+    /*font-weight: bold;*/
     z-index: 10;
     font-size: 0px; }
   .tile.tile-2 .tile-inner {
     /*background: #eee4da;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: transparent;
     background-image: url('../images/n!.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     /*background: #ede0c8;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    color: transparent;
     background-image: url('../images/n_3.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
+    /*color: #000;*/
     /*background: #f2b179;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    color: transparent;
     background-image: url('../images/n_2.png'); 
     }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
     /*background: #f59563; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     background-image: url('../images/n_log_n.png');
+    color: transparent;
   }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
     /*background: #f67c5f; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     background-image: url('../images/n_log_star_n.png');
+    color: transparent;
   }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
     /*background: #f65e3b; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     background-image: url('../images/n.png');
+    color: transparent;
   }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
+    color: transparent;
     /*background: #edcf72;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     background-image: url('../images/log_n.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px; 
+        color: transparent;
+        } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
+    color: transparent;
     /*background: #edcc61;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     background-image: url('../images/log_log_n.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        color: transparent; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
     /*background: #edc850;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    color: transparent;
     background-image: url('../images/log_star_n.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        color: transparent; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
+    color: transparent;
     /*background: #edc53f;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     background-image: url('../images/alpha_n.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        color: transparent; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
+    color: transparent;
     /*background: #edc22e;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     background-image: url('../images/1.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        color: transparent; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
+    /*color: #f9f6f2;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    color: transparent;
     background: #3c3a32;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        color: transparent; } }
 
 @-webkit-keyframes appear {
   0% {
@@ -519,7 +598,8 @@ hr {
 
 @media screen and (max-width: 520px) {
   html, body {
-    font-size: 15px; }
+    /*font-size: 15px; */
+  }
 
   body {
     margin: 20px 0;
